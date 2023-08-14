@@ -1,0 +1,59 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+}
+
+.download-btn {
+  outline: none;
+  border: none;
+  background: #4070f4;
+  padding: 16px 25px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #2660f1;
+}
+
+.download-btn.timer {
+  color: #000;
+  background: none;
+  transition: none;
+  pointer-events: none;
+  font-size: 1.6rem;
+}
+
+.download-btn.timer b {
+  color: #4070f4;
+  padding: 0 8px;
+}
+
+.download-btn .icon {
+  font-size: 2rem;
+}
+
+.download-btn .text {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
